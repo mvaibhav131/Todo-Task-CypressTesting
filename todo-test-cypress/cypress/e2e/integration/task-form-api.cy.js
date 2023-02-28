@@ -3,7 +3,7 @@ describe("Task form submit",()=>{
         cy.visit("http://localhost:3000")
     })
     it("visit the url",()=> {
-        
+        cy.wait(2000)
     })
     it("Add the new item and submit the form",()=>{
         const text="ABC"
