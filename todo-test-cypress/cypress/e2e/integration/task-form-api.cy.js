@@ -43,3 +43,7 @@ describe("Task form submit",()=>{
 });
 
 // if you want to check the alert massage used cy.on function
+
+cy.on('window:alert',(t)=>{
+    expect(t).to.contain("")
+});
