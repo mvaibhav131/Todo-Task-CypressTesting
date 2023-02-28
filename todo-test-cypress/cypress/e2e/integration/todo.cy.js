@@ -93,7 +93,7 @@ describe('example to-do app', () => {
 
     it('can filter for uncompleted tasks', () => {
       // We'll click on the "active" button in order to
-      // display only incomplete items
+      // display only incomplete items here
       cy.contains('Active').click()
 
       // After filtering, we can assert that there is only the one
