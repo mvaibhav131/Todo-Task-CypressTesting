@@ -4,6 +4,7 @@ describe("Task form submit",()=>{
     })
     it("visit the url",()=> {
         cy.wait(2000)
+        //basically wait is used for to wait sometime before visit the url
     })
     it("Add the new item and submit the form",()=>{
         const text="ABC"
