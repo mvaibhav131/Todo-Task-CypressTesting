@@ -4,6 +4,7 @@ describe("Task input form",() => {
    
     it("visit home page",()=>{
         cy.visit("http://localhost:3000")
+        cy.wait(1000)
     })
     it("focuse the input tag",()=> {
         // cy.visit("http://localhost:3000")
