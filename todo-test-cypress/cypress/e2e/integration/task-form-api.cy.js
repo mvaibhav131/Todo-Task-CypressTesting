@@ -39,5 +39,7 @@ describe("Task form submit",()=>{
 
         cy.get('.error')
         .should('be.visible')
-    })
-})
+    });
+});
+
+// if you want to check the alert massage used cy.on function
